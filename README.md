@@ -1,4 +1,4 @@
-yeeyanAndroid
-=============
+android_side_navigation
+=======================
 
-a client for yeeyan android
+a demo for android navigation 

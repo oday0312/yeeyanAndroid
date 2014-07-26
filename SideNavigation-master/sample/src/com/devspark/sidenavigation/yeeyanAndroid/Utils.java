@@ -234,6 +234,7 @@ public class Utils  {
             HttpURLConnection urlConnection = (HttpURLConnection) url
                     .openConnection();
 
+              urlConnection.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36");
             urlConnection.setConnectTimeout(10*1000);
             urlConnection.setReadTimeout(10*1000);
             InputStream in = urlConnection.getInputStream();
